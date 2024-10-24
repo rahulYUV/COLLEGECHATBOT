@@ -1,0 +1,283 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "how are you",
+                "hello",
+                "is anyone there",
+                "hey"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help you today?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "goodbye",
+                "I am leaving",
+                "bye",
+                "I got to go",
+                "ttyl"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later!",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "bharati_vidyapeeth",
+            "patterns": [
+                "Tell me about Bharati Vidyapeeth",
+                "Give me information about Bharti",
+                "History of BVDU",
+                "About Bharati Vidyapeeth",
+                "Rank of this college",
+                "Information of Bharati Vidyapeeth",
+                "Tell me about this college",
+                "Founded by whom",
+                "Founder of this college",
+                "Founder of BVDUCOEP"
+            ],
+            "responses": [
+                "BVDUCOEP is a constituent unit of Bharati Vidyapeeth (Deemed to be University), accredited with an A+ grade in its third cycle by NAAC in 2017. Bharati Vidyapeeth (Deemed to be University) College of Engineering was established by Dr. Patangrao Kadam in 1983."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "Can you tell me your name?",
+                "What should I call you?",
+                "Your name, please?"
+            ],
+            "responses": [
+                "I am your chatbot!",
+                "I don't have a name, but you can call me Chatbot.",
+                "I am here to assist you with your queries."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "What are the working hours?",
+                "When is the office open?",
+                "Tell me the working hours",
+                "What time do you open and close?",
+                "Office hours?"
+            ],
+            "responses": [
+                "Our working hours are from 9 AM to 5 PM, Monday to Friday.",
+                "We are open from 9 AM to 5 PM on weekdays.",
+                "Office hours are 9 AM to 5 PM, Monday through Friday."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "club",
+            "patterns": [
+                "What clubs are available?",
+                "Tell me about the student clubs",
+                "Which clubs can I join?",
+                "Information about college clubs",
+                "What are the available clubs?"
+            ],
+            "responses": [
+                "We have a variety of clubs including the Cultural Club, Sports Club, and Tech Club.",
+                "Our college offers several student clubs like the Drama Club, Music Club, and Debate Club.",
+                "You can join clubs such as the Arts Club, Science Club, and Eco Club."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hod_of_department",
+            "patterns": [
+                "Who is the HOD of the department?",
+                "Tell me the head of the department",
+                "Who is the head of the department?",
+                "Name of the department HOD",
+                "HOD for this department"
+            ],
+            "responses": [
+                "The Head of the Department is Dr. Prakash V. Chavan ",
+                "Currently,Dr. Prakash V. Chavanis the HOD of the department.",
+                "Dr. Prakash V. Chavan is the Head of the Department."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "IT_or_CSE",
+            "patterns": [
+                "Tell me about the IT department",
+                "Information on CSE",
+                "What is the difference between IT and CSE?",
+                "Courses in IT department",
+                "Courses in CSE department"
+            ],
+            "responses": [
+                "The IT department focuses on Information Technology, while the CSE department focuses on Computer Science and Engineering.",
+                "Our IT department offers courses in software development and network management, whereas CSE offers courses in algorithms and programming.",
+                "The IT department is more oriented towards tech applications, while CSE emphasizes computer systems and software engineering."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered?",
+                "Tell me about the courses",
+                "List of available courses",
+                "What subjects can I study?",
+                "Information on course offerings"
+            ],
+            "responses": [
+                "We offer a range of courses including Engineering, Business Administration, and Arts.",
+                "Our courses include Computer Science, Mechanical Engineering, and Business Management.",
+                "Available courses include Information Technology, Civil Engineering, and Electrical Engineering."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How can I apply for admission?",
+                "Tell me about the admission process",
+                "What are the admission requirements?",
+                "How do I get admitted?",
+                "Information on admission"
+            ],
+            "responses": [
+                "You can apply for admission through our online application portal.",
+                "Visit our website for detailed information on the admission process and requirements.",
+                "To apply, fill out the application form on our website and submit the necessary documents."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fee",
+            "patterns": [
+                "What is the fee structure?",
+                "Tell me about the fees",
+                "How much is the tuition fee?",
+                "Fee details",
+                "Information on fees"
+            ],
+            "responses": [
+                "The fee structure varies by course. Please check our website for detailed fee information.",
+                "For details on tuition fees, visit our fee structure page on the website.",
+                "Fees depend on the program. Refer to our website for the exact fee details."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "governing_council",
+            "patterns": [
+                "Who is on the governing council?",
+                "Tell me about the governing council",
+                "Members of the governing council",
+                "Information on the governing council",
+                "Who manages the college?"
+            ],
+            "responses": [
+                "The governing council consists of esteemed members including Dr. Patangrao Kadam and other academic leaders.",
+                "Our governing council includes prominent figures from academia and industry.",
+                "The council is made up of key individuals who oversee the institution's governance."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "What are the hostel facilities?",
+                "Tell me about the hostel",
+                "How do I apply for a hostel?",
+                "Information on hostel accommodation",
+                "Hostel details"
+            ],
+            "responses": [
+                "We offer comfortable hostel accommodations with various facilities. Please check our hostel information page for details.",
+                "Hostel facilities include Wi-Fi, laundry, and recreational areas. Visit our website for more information.",
+                "To apply for a hostel, fill out the hostel application form available on our website."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "What events are coming up?",
+                "Tell me about upcoming events",
+                "List of events",
+                "Events schedule",
+                "Information on college events"
+            ],
+            "responses": [
+                "Check our events page for a list of upcoming events and schedules.",
+                "We have various events planned. Visit our website for the event calendar.",
+                "Upcoming events include seminars, workshops, and cultural programs. Details are on our events page."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "Can I see the syllabus?",
+                "Tell me about the syllabus",
+                "What is included in the syllabus?",
+                "Syllabus details",
+                "Course syllabus"
+            ],
+            "responses": [
+                "Syllabus details are available on our course page. Check the specific course for more information.",
+                "Visit the syllabus section on our website to view the details for each course.",
+                "You can find the syllabus for all courses on the respective department's webpage."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "What are the canteen facilities?",
+                "Tell me about the canteen",
+                "What food is available in the canteen?",
+                "Canteen menu",
+                "Information on canteen services"
+            ],
+            "responses": [
+                "The canteen offers a variety of food options including snacks, beverages, and meals.",
+                "Check our website for the canteen menu and service hours.",
+                "Our canteen provides a range of meals and snacks at affordable prices."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "helpline",
+            "patterns": [
+                "What is the helpline number?",
+                "Tell me the contact number",
+                "How can I contact support?",
+                "Contact information",
+                "Helpline details"
+            ],
+            "responses": [
+                "You can reach our helpline at +91-XXXXXXXXXX.",
+                "For support, please call our helpline number: +91-XXXXXXXXXX.",
+                "Contact us at +91-XXXXXXXXXX for any assistance you need."
+            ],
+            "context_set": ""
+        }
+    ]
+}
